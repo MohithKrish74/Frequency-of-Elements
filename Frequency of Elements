@@ -19,6 +19,7 @@ public class Main
         {
             list.add(in.nextInt());
         }
+        System.out.println("User list is "+list);
         LinkedHashSet<Integer>set=new LinkedHashSet<Integer>(list);
         System.out.println("The frequency of the elements are:  ");
         for(Integer k:set)
